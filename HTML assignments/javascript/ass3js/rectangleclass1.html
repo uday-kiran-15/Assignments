@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rectangle class</title>
+</head>
+<body>
+    <script>
+       class Rectangle{
+           constructor(width,height){
+               this.width=width;
+               this.height=height;
+           }
+           get getHeight(){
+            return this.height;
+            
+           }
+           get getWidth(){
+               return this.width;
+               
+           }
+       }
+       var rect =new Rectangle(5,6);
+    
+       document.write("rectangle <br> height :  "+rect.getHeight);
+       document.write( "<br>Width :  "+rect.getWidth);
+
+       var rect =new Rectangle(15,16);
+    
+       document.write("<br> modified rectangle <br> height :  "+rect.getHeight);
+       document.write( "<br>Width :  "+rect.getWidth);
+ 
+    </script>
+</body>
+</html>

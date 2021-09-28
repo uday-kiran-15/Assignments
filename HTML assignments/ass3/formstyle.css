@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    border-style: solid;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 40px;
+}
+h1{
+    text-align: center;
+    color: maroon;
+    background-color: lightgreen;
+}
+h1{
+    margin: auto;
+    padding: 40px;
+    width: 50%;
+    
+}
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit] :hover {
+    background-color: #45a049;
+  }
+
+  input[type=text] ,select {
+    width: 230px;
+    box-sizing: content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 40%;
+  }
+  input[type=date]{width: 230px;
+    box-sizing: content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+
+  }
+  input[type=date]:focus {
+    width: 40%;
+  }
+  
+  input[type=address]{
+    width: 230px;
+    box-sizing: content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+
+  }
+  input[type=address]:focus {
+    width: 40%;
+  }
+  input[type=email]{
+    width: 230px;
+    box-sizing: content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+
+  }
+  input[type=email]:focus {
+    width: 40%;
+  }
+  input[type=number]{
+    
+    width: 230px;
+    box-sizing: content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=number]:focus {
+    width: 40%;
+  }
+.total{
+    background-color: lightgray;
+    margin: auto;
+    padding: 20px;
+}
+.content{
+    background-color: lightgray;
+    margin-left: 30px;
+    padding: 20px;
+}
+.que{
+    text-align: left;
+}
+
+@media screen and (max-width: 820px){
+    input[type=text] ,select {
+        width: 100px;
+        box-sizing: content-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+      }
+      
+      input[type=text]:focus {
+        width: 40%;
+      }
+      input[type=date]{width: 100px;
+        box-sizing: content-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+    
+      }
+      input[type=date]:focus {
+        width: 40%;
+      }
+      
+      input[type=address]{
+        width: 100px;
+        box-sizing: content-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+    
+      }
+      input[type=address]:focus {
+        width: 40%;
+      }
+      input[type=email]{
+        width: 100px;
+        box-sizing: content-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+    
+      }
+      input[type=email]:focus {
+        width: 40%;
+      }
+      input[type=number]{
+        
+        width: 100px;
+        box-sizing: content-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+      }
+      input[type=number]:focus {
+        width: 40%;
+      }
+
+    
+}

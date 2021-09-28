@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compound function 2</title>
+</head>
+<body>
+    <script>
+        var f1=compose(square,double);
+        var f1=compose(square,double);
+        function compose(square,double){
+            var y=f1(5);
+            var z=f1(10);
+            var p=f2(5);
+            var q=f2(10)
+            document.write(y);
+            document.write("<br>"+z);
+            document.write("<br>"+p);
+            document.write("<br>"+q);
+        }
+        function f1(x){
+        return(square(double(x)));
+    }
+    function square(x){
+            return(x*x);
+        }
+        function double(x){
+            return(x*2);
+        }
+
+        function f2(x){
+        return(double(square(x)));
+    }
+    function square(x){
+            return(x*x);
+        }
+        function double(x){
+            return(x*2);
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background:url("abdul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    text-align: left;
+    background: transparent;
+    color: rgb(250, 243, 243);
+}
+.details{
+    text-align: center;
+    background:transparent;    
+    color: white;
+
+}
+.intro{
+    text-align: justify;   
+    background:transparent;    
+    color: white;
+}
+.link{
+    background:transparent;
+    color: white;
+}
+.footer{
+    text-align: right;
+    margin-right: 50px;
+    color:white;
+}
+.head{
+    color: white;
+}
+
+

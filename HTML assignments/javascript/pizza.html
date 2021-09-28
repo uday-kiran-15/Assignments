@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza delivery</title>
+    <link rel="stylesheet" href="pizza.css">
+    <script src="pizza.js"></script>
+</head>
+<body class="reset">
+    <h1>Pizza Order</h1>
+    <form action="#" method="post" name="form_name" id="form_id" class="form_class" >
+        <label for="customer name">Name</label>
+        <input type="text" id="name" name="customer name" placeholder="enter your name" required>
+        <label for="customer name"><br><br>Email</label>
+        <input type="email" id="email" name="customer email" placeholder="enter your email" required>
+        <div class="checkbox" id="boxes">
+        <h2><strong>Toppings:</strong></h2>
+        <label for="cheese">Extra cheese</label>
+        <input type="checkbox" id="box" name="cheese">
+        <label for="pepperoni">Pepperoni</label>
+        <input type="checkbox" id="box1" name="pepperoni">
+        <label for="olives">Olives</label>
+        <input type="checkbox" id="box2" name="olives">
+        <label for="pepper">Pepper</label>
+        <input type="checkbox" id="box3" name="pepper">
+        <label for="bacon">Bacon</label>
+        <input type="checkbox" id="box4" name="bacon">
+        <label for="tomatoes">Tomatoes</label>
+        <input type="checkbox" id="box5" name="tomatoes">
+        <label for="mushrooms">Mushrooms</label>
+        <input type="checkbox" id="box6" name="mushrooms">
+        </div>
+        <p><strong>How do you want to get your Pizza Delivery</strong></p>
+        <label for="delivery">Delivery</label>
+        <input type="radio" id="" name="delivery">
+        <label for="pickup">Pickup</label>
+        <input type="radio" id="" name="pickup">
+        <label for="tip"><br><br>Tip?</label>
+        <input type="Number" id="" name="tip">
+        <label for="Address"><br><br>Address</label>
+        <textarea name="Address" id="" cols="30" rows="5" placeholder="enter address"></textarea>
+        <br><br><button onclick="submit_by_id()" id="sbt">Submit</button>
+        <button onclick="clear_by_id()">Clear</button>
+        <button>Show Summary</button>
+    
+    
+    </form>
+    
+</body>
+</html>

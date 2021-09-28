@@ -1,0 +1,12 @@
+.header{
+background-color: rgb(110, 166, 240);
+padding: 2px;
+margin: 2px; 
+font-family: calibri;
+}
+p{
+    background-color: lightgray;
+    padding: 2px;
+    margin: 2px;
+}
+

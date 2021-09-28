@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compound function</title>
+</head>
+<body>
+    <script>
+        var res=composedvalue(square,double,5);
+        document.write(res);
+        function composedvalue(square,double,x){
+           var y=square(double(5));
+           return y;
+        }
+
+        function double(x){
+            return(x*2);
+        }
+        function square(x){
+            return(x*x);
+        }
+    </script>
+    
+</body>
+</html>

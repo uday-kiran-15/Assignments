@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            td{
+                border: 0.3px solid black;
+                width:0;
+                text-align: center;    
+            }
+            tr.noBorder td {
+                border: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+               <th align="left" colspan="3">This table has borders:</th>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>400</td>
+                <td>500</td>
+                <td>600</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="3">This table has no borders:</th>
+             </tr>
+             <tr class="noBorder">
+                 <td>100</td>
+                 <td>200</td>
+                 <td>300</td>
+             </tr>
+             <tr class="noBorder">
+                 <td>400</td>
+                 <td>500</td>
+                 <td>600</td>
+             </tr>
+ 
+
+
+        </table>
+    </body>
+</html>

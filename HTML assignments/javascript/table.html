@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        body {
+                margin: 30px;
+                background: rgb(122, 183, 207);
+            } 
+            #myTable{
+                border: 1px solid rgb(236, 10, 10);
+                color: white;
+            }
+    </style>
+</head>
+<body>
+</table><form> 
+    <input type="button" onclick="createTable()" value="Create the table"> 
+    </form>
+    <br><hr>
+    <table id="myTable" border = "1" cellspacing ="4px"> 
+    <script>
+        function createTable(){
+            rowNum = window.prompt("Input number of rows", 1);
+            colNum = window.prompt("Input number of columns",1);
+            
+            for(var r=0;r<parseInt(rowNum,10);r++){
+            var x=document.getElementById('myTable').insertRow(r);
+            for(var c=0;c<parseInt(colNum,10);c++)  
+                {
+                var y=  x.insertCell(c);
+                y.innerHTML="Row-"+r+" Column-"+c; 
+                }
+            }
+        }
+    </script>
+</body>
+</body>
+</html>

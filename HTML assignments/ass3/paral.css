@@ -1,0 +1,59 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+.section1{
+  height: 700px;
+  width: 100%;
+  background-image: url("city.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+}
+.section2{
+  height: 700px;
+  width: 100%;
+  background-image: url("colors.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+}
+.section3{
+  height:700px;
+  width: 100%;
+  background-image: url("car.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display:grid;
+
+}
+h1{
+  font-family: sans-serif;
+  font-size: 48px;
+  color: white;
+  margin: 0px;
+  text-align:center;
+  background-color: lightgreen;
+  /* vertical-align: middle; */
+  height:fit-content;
+ 
+ 
+} 
+p{
+  font-family: cursive;
+  font-size: 30px;
+  color: blue;
+  background-color: lightgray;
+  border:solid;
+  margin: 0 auto;
+  height:80px;
+  text-align: center;
+  /* vertical-align: middle; */
+  grid-column: 4/4;
+  grid-row: 4/5;
+
+}

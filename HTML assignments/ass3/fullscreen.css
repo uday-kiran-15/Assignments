@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin: 0;
+    font-family: serif;
+    font-size: 17px;
+    color:#926939;
+    line-height: 1.6;
+}
+#showcase{
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+#showcase h1{
+    font-size:50px;
+    line-height: 1.2;
+}
+#showcase p{
+    font-size: 20px;
+}
+#showcase.button{
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(235, 52, 52);
+    border: red 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#showcase.button:hover{
+    background: rgb(75, 214, 110);
+    color: white;
+}
+#section-a{
+    padding: 60px;
+    background: rgb(233, 140, 140);
+    color:white;
+    text-align: center;
+}
+#section-b{
+
+    background: rgb(113, 181, 212);
+    text-align: center;
+}
+#section-b{
+    padding: 60px;
+}
+#section-c{
+    display:flex;
+}
+#section-c div{
+    padding: 40px;
+}
+#section-c .one{
+    background: rgb(236, 97, 16);
+    color: white;
+}
+#section-c .three{
+    background: lightgray;
+    
+    flex-grow: 100;
+}
+#section-c .two{
+    background: lightcoral;
+    flex-grow: 100;
+}

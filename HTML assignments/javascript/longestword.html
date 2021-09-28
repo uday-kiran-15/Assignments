@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consecutive char</title>
+</head>
+<body>
+    <script>
+            var string = prompt("Enter continuous single string");
+            var output ="", temp = "";
+            document.write(string," <br>type:",typeof(string));
+            for(i=0;i<string.length;i++){
+                if(string.charAt(i) == "a" || string.charAt(i) == "b" ){
+                    //document.write("before temp ",i," : ",temp," output : ",output,"<br>");
+                    if(temp.length> output.length)
+                        output = temp;
+                    temp = "";
+                    //document.write("after temp ",i," : ",temp," output : ",output,"<br><br>");
+                }
+                else{
+                    temp = temp.concat(string.charAt(i));
+                    //document.write(" temp ",i," : ",temp," output : ",output,"<br>");
+                }
+            }
+            document.write('<br>final output: "',output,'"');
+
+    </script>
+</body>
+</html>

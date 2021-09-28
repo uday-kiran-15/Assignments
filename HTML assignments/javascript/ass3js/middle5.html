@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIddle name</title>
+</head>
+<body>
+    <script>
+        let name = {
+            fName:"uday",
+            lName:"kiran"
+        };
+        document.write("name<br> firstName \n  :"+name.fName);
+        document.write("<br> lastName \n  : "+name.lName);
+        document.write("<br> middleName \n  : "+name.mName);
+        
+        name.fName="uday";
+        name.lName="changed";
+        name.mName="middle"
+        document.write("<hr>name<br> firstName \n  :"+name.fName);
+        document.write("<br> lastName \n  : "+name.lName);
+        document.write("<br> middleName \n  : "+name.mName);
+        
+        document.write("<hr>properties after adding middle name");
+        for (let prop in name) {
+                document.write("<br>",prop," : ",name[prop]);
+            }
+    </script>
+    
+</body>
+</html>

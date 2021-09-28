@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>currency conerter</title>
+</head>
+<body>
+	<h1>currency converter</h1>
+	<script>
+		 	var dollar = parseInt(prompt('Enter dollar amount'));
+            document.writeln(dollar,"$ in other currencies: <br>");
+            var rupee = dollar*74.20;
+            var euro = dollar*0.85;
+            var yen = dollar*109.841;
+            document.writeln(rupee,"Rs is ",dollar,"$ <br>");
+            document.writeln(euro,"Pound is ",dollar,"$.<br>");
+            document.writeln(Math.round(yen),"Yen is ",dollar,"$.<br>");
+        
+	</script>
+	
+</body>
+</html>
